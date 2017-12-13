@@ -29,6 +29,7 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>  <!-- top column for ribbon toolbar -->
             <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
         <!-- ribbon toolbar -->
@@ -91,7 +92,7 @@
         </Ribbon>
 
         <!-- display the tradable goods -->
-        <ListView Grid.Column="0" Grid.Row="1" Name="lvTradeGoods">
+        <ListView Grid.Column="0" Grid.Row="1" Grid.RowSpan="2" Name="lvTradeGoods">
             <ListView.View>
                 <GridView>
                     <GridViewColumn Width="120" DisplayMemberBinding="{Binding Name}">
@@ -133,12 +134,26 @@
         </ListView>
         
         <!-- Splitter zwischen Hauptinteraktionsfeld (column0) und Detailansicht (column2) -->
-        <GridSplitter Grid.Column="1" Grid.Row="1" HorizontalAlignment="Stretch" />
+        <GridSplitter Grid.Column="1" Grid.Row="1" Grid.RowSpan="2" HorizontalAlignment="Stretch" />
 
         <!-- temporär zum Testen -->
-        <Button Grid.Column="2" Grid.Row="2" Click="AddWoodBtn_Click" ClickMode="Release">
+        <Button Grid.Column="2" Grid.Row="1" Click="AddWoodBtn_Click" ClickMode="Release">
             Add 1 Wood
         </Button>
+
+        <!-- Planet display for testing-->
+        <DataGrid Name="dgPlanets" Grid.Column="2" Grid.Row="3" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}" />
+                <DataGridTextColumn Header="Type" Binding="{Binding PlanetType}" />
+                <DataGridTextColumn Header="Size" Binding="{Binding Size}" />
+                <DataGridTextColumn Header="Climate" Binding="{Binding Climate}" />
+                <DataGridTextColumn Header="Usable Area" Binding="{Binding UsableArea}" />
+                <DataGridTextColumn Header="Habitability" Binding="{Binding Habitability}" />
+                <DataGridTextColumn Header="Wealth" Binding="{Binding Wealth}" />
+            </DataGrid.Columns>
+
+        </DataGrid>
 
     </Grid>
 </Window>

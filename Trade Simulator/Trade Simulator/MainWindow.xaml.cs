@@ -32,6 +32,26 @@ namespace Trade_Simulator
         {
             InitializeComponent();
 
+            // test goods
+            Goods[] goods = new Goods[5]
+            {
+                new Goods() { Name = "Wood", Amount = woodAmount, Price = 5.2f, Category = GoodsType.Common },
+                new Goods() { Name = "Stone", Amount = 20, Price = 8, Category = GoodsType.Common },
+                new Goods() { Name = "Food", Amount = 125, Price = 2.1f, Category = GoodsType.Common },
+                new Goods() { Name = "Pearls", Amount = 7, Price = 52.54f, Category = GoodsType.Luxury },
+                new Goods() { Name = "Diamonds", Amount = 2, Price = 740.02f, Category = GoodsType.Luxury }
+            };
+
+            // test planet
+            Planet terra = new Planet() { Name = "Terra", PlanetType = "Earthlike", Climate = "Temperate", Goods = goods, Habitability = 100f, Size = 100f, UsableArea = 37f, Wealth = 23721.123f };
+
+            List<Planet> planets = new List<Planet>
+            {
+                new Planet()  { Name = "Terra", PlanetType = "Earthlike", Climate = "Temperate", Goods = goods, Habitability = 100f, Size = 100f, UsableArea = 37f, Wealth = 23721.123f }
+            };
+
+            dgPlanets.ItemsSource = planets;
+
             // Creating the goods list for testing
             BindingList<Goods> items = new BindingList<Goods>
             {
@@ -51,8 +71,7 @@ namespace Trade_Simulator
 
         void AddWoodBtn_Click(object sender, EventArgs e)
         {
-            //Get a reference to the TradeGoods list
- 
+            
         }
 
         // sorting the listview when clicking on header

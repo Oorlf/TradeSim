@@ -7,16 +7,16 @@ using System.Threading.Tasks;
 namespace Trade_Simulator
 {
     // Any 'usable' planet - colony/mine/etc. - anything that can trade goods
-    class Planet
+    public class Planet
     {
         // Name of the planet - randomly generated/picked from a namelist
-        public String Name { get; private set; }
+        public String Name { get; set; }
 
         // Type of planet randomly picked from a fixed number of presets
-        public String Type { get; private set; }
+        public String PlanetType { get; set; }
 
         // Planet size - constricted by PlanetType
-        public float Size { get; private set; }    
+        public float Size { get; set; }    
         
         // Climate randomly generated with constraints according to the PlanetType and PlanetSize
         public String Climate { get; set; }
@@ -29,5 +29,12 @@ namespace Trade_Simulator
 
         // temporary value for testing growth/decline - the goal is for planets to have individual continents/cities that grow/shrink depending on trade/events etc.
         public float Wealth { get; set; }
+
+        // the available goods on the planet - initial ones are defined by planet type/climate etc.
+        public Goods[] Goods { get; set; }
+
+
     }
+
+    
 }

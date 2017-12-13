@@ -13,3 +13,18 @@ D:\Programming\Visual Studio\Source\repos\Trade Simulator\Trade Simulator\obj\De
 D:\Programming\Visual Studio\Source\repos\Trade Simulator\Trade Simulator\obj\Debug\Trade Simulator.csproj.CoreCompileInputs.cache
 D:\Programming\Visual Studio\Source\repos\Trade Simulator\Trade Simulator\obj\Debug\Trade Simulator.exe
 D:\Programming\Visual Studio\Source\repos\Trade Simulator\Trade Simulator\obj\Debug\Trade Simulator.pdb
+D:\Programming\GitHub\TradeSim\Trade Simulator\Trade Simulator\bin\Debug\Trade Simulator.exe.config
+D:\Programming\GitHub\TradeSim\Trade Simulator\Trade Simulator\bin\Debug\Trade Simulator.exe
+D:\Programming\GitHub\TradeSim\Trade Simulator\Trade Simulator\bin\Debug\Trade Simulator.pdb
+D:\Programming\GitHub\TradeSim\Trade Simulator\Trade Simulator\obj\Debug\Trade Simulator.csprojResolveAssemblyReference.cache
+D:\Programming\GitHub\TradeSim\Trade Simulator\Trade Simulator\obj\Debug\MainWindow.g.cs
+D:\Programming\GitHub\TradeSim\Trade Simulator\Trade Simulator\obj\Debug\App.g.cs
+D:\Programming\GitHub\TradeSim\Trade Simulator\Trade Simulator\obj\Debug\Trade Simulator_MarkupCompile.cache
+D:\Programming\GitHub\TradeSim\Trade Simulator\Trade Simulator\obj\Debug\Trade Simulator_MarkupCompile.lref
+D:\Programming\GitHub\TradeSim\Trade Simulator\Trade Simulator\obj\Debug\MainWindow.baml
+D:\Programming\GitHub\TradeSim\Trade Simulator\Trade Simulator\obj\Debug\Trade Simulator.g.resources
+D:\Programming\GitHub\TradeSim\Trade Simulator\Trade Simulator\obj\Debug\Trade_Simulator.Properties.Resources.resources
+D:\Programming\GitHub\TradeSim\Trade Simulator\Trade Simulator\obj\Debug\Trade Simulator.csproj.GenerateResource.Cache
+D:\Programming\GitHub\TradeSim\Trade Simulator\Trade Simulator\obj\Debug\Trade Simulator.csproj.CoreCompileInputs.cache
+D:\Programming\GitHub\TradeSim\Trade Simulator\Trade Simulator\obj\Debug\Trade Simulator.exe
+D:\Programming\GitHub\TradeSim\Trade Simulator\Trade Simulator\obj\Debug\Trade Simulator.pdb
