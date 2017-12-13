@@ -1,0 +1,15 @@
+D:\Programming\Visual Studio\Source\repos\Trade Simulator\Trade Simulator\bin\Debug\Trade Simulator.exe.config
+D:\Programming\Visual Studio\Source\repos\Trade Simulator\Trade Simulator\bin\Debug\Trade Simulator.exe
+D:\Programming\Visual Studio\Source\repos\Trade Simulator\Trade Simulator\bin\Debug\Trade Simulator.pdb
+D:\Programming\Visual Studio\Source\repos\Trade Simulator\Trade Simulator\obj\Debug\Trade Simulator.csprojResolveAssemblyReference.cache
+D:\Programming\Visual Studio\Source\repos\Trade Simulator\Trade Simulator\obj\Debug\MainWindow.g.cs
+D:\Programming\Visual Studio\Source\repos\Trade Simulator\Trade Simulator\obj\Debug\App.g.cs
+D:\Programming\Visual Studio\Source\repos\Trade Simulator\Trade Simulator\obj\Debug\Trade Simulator_MarkupCompile.cache
+D:\Programming\Visual Studio\Source\repos\Trade Simulator\Trade Simulator\obj\Debug\Trade Simulator_MarkupCompile.lref
+D:\Programming\Visual Studio\Source\repos\Trade Simulator\Trade Simulator\obj\Debug\MainWindow.baml
+D:\Programming\Visual Studio\Source\repos\Trade Simulator\Trade Simulator\obj\Debug\Trade Simulator.g.resources
+D:\Programming\Visual Studio\Source\repos\Trade Simulator\Trade Simulator\obj\Debug\Trade_Simulator.Properties.Resources.resources
+D:\Programming\Visual Studio\Source\repos\Trade Simulator\Trade Simulator\obj\Debug\Trade Simulator.csproj.GenerateResource.Cache
+D:\Programming\Visual Studio\Source\repos\Trade Simulator\Trade Simulator\obj\Debug\Trade Simulator.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Studio\Source\repos\Trade Simulator\Trade Simulator\obj\Debug\Trade Simulator.exe
+D:\Programming\Visual Studio\Source\repos\Trade Simulator\Trade Simulator\obj\Debug\Trade Simulator.pdb
