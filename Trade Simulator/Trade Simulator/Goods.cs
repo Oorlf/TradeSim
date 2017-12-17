@@ -23,6 +23,6 @@ namespace Trade_Simulator
         public float Price { get; set; }
 
         // the type of good - may affect price/availability
-        public GoodsType Category { get; set; }
+        //public GoodsType Category { get; set; }
     }
 }

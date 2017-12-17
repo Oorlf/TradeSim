@@ -1,0 +1,32 @@
+﻿[
+  {
+    "Name": "Terra",
+    "PlanetType": "Terrestrial",
+    "Size": 100,
+    "Climate": "Test",
+    "UsableArea": 37,
+    "Habitability": 100,
+    "Wealth": 721,
+    "Goods": [
+      
+    ]
+  },
+  {
+    "Name": "Moon",
+    "PlanetType": "Terrestrial",
+    "Size": 25,
+    "Climate": "Test",
+    "UsableArea": 100,
+    "Habitability": 0,
+    "Wealth": 10
+  },
+  {
+    "Name": "Mars",
+    "PlanetType": "Terrestrial",
+    "Size": 50,
+    "Climate": "Test",
+    "UsableArea": 57,
+    "Habitability": 5,
+    "Wealth": 825
+  }
+]

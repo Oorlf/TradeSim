@@ -28,3 +28,5 @@ D:\Programming\GitHub\TradeSim\Trade Simulator\Trade Simulator\obj\Debug\Trade S
 D:\Programming\GitHub\TradeSim\Trade Simulator\Trade Simulator\obj\Debug\Trade Simulator.csproj.CoreCompileInputs.cache
 D:\Programming\GitHub\TradeSim\Trade Simulator\Trade Simulator\obj\Debug\Trade Simulator.exe
 D:\Programming\GitHub\TradeSim\Trade Simulator\Trade Simulator\obj\Debug\Trade Simulator.pdb
+D:\Programming\GitHub\TradeSim\Trade Simulator\Trade Simulator\bin\Debug\Newtonsoft.Json.dll
+D:\Programming\GitHub\TradeSim\Trade Simulator\Trade Simulator\bin\Debug\Newtonsoft.Json.xml

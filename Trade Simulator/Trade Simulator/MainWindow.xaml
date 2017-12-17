@@ -95,15 +95,6 @@
         <ListView Grid.Column="0" Grid.Row="1" Grid.RowSpan="2" Name="lvTradeGoods">
             <ListView.View>
                 <GridView>
-                    <GridViewColumn Width="120" DisplayMemberBinding="{Binding Name}">
-                        <GridViewColumnHeader Tag="Name" Click="TradeGoodsColumnHeader_Click">Name</GridViewColumnHeader>
-                    </GridViewColumn>
-                    <GridViewColumn Width="80" DisplayMemberBinding="{Binding Amount, UpdateSourceTrigger=PropertyChanged}">
-                        <GridViewColumnHeader Tag="Amount" Click="TradeGoodsColumnHeader_Click">Amount</GridViewColumnHeader>
-                    </GridViewColumn>
-                    <GridViewColumn Width="100" DisplayMemberBinding="{Binding Price}">
-                        <GridViewColumnHeader Tag="Price" Click="TradeGoodsColumnHeader_Click">Price</GridViewColumnHeader>
-                    </GridViewColumn>
                 </GridView>
             </ListView.View>
             <!-- Aussehen des Headers in der Handelsgüteransicht -->
@@ -137,20 +128,14 @@
         <GridSplitter Grid.Column="1" Grid.Row="1" Grid.RowSpan="2" HorizontalAlignment="Stretch" />
 
         <!-- temporär zum Testen -->
-        <Button Grid.Column="2" Grid.Row="1" Click="AddWoodBtn_Click" ClickMode="Release">
+        <Button Grid.Column="2" Grid.Row="1" Height="100" Width="200" HorizontalAlignment="Right" VerticalAlignment="Bottom" Click="AddWoodBtn_Click" ClickMode="Release">
             Add 1 Wood
         </Button>
 
         <!-- Planet display for testing-->
-        <DataGrid Name="dgPlanets" Grid.Column="2" Grid.Row="3" AutoGenerateColumns="False">
+        <DataGrid Name="dgPlanets" Grid.Column="2" Grid.Row="3" AutoGenerateColumns="True" IsReadOnly="True">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Name" Binding="{Binding Name}" />
-                <DataGridTextColumn Header="Type" Binding="{Binding PlanetType}" />
-                <DataGridTextColumn Header="Size" Binding="{Binding Size}" />
-                <DataGridTextColumn Header="Climate" Binding="{Binding Climate}" />
-                <DataGridTextColumn Header="Usable Area" Binding="{Binding UsableArea}" />
-                <DataGridTextColumn Header="Habitability" Binding="{Binding Habitability}" />
-                <DataGridTextColumn Header="Wealth" Binding="{Binding Wealth}" />
+                <!-- <DataGridTextColumn Header="Name" Binding="{Binding Path=Name}" /> -->
             </DataGrid.Columns>
 
         </DataGrid>

@@ -1,13 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Runtime.CompilerServices;
+using System.Windows.Forms;
 
 namespace Trade_Simulator
 {
     // Any 'usable' planet - colony/mine/etc. - anything that can trade goods
-    public class Planet
+    public class Planet 
     {
         // Name of the planet - randomly generated/picked from a namelist
         public String Name { get; set; }
@@ -32,9 +35,8 @@ namespace Trade_Simulator
 
         // the available goods on the planet - initial ones are defined by planet type/climate etc.
         public Goods[] Goods { get; set; }
-
-
     }
+
 
     
 }
